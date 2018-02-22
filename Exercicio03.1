@@ -1,0 +1,33 @@
+#solicite duas notas ao usuario
+
+#faca o calculo de media, se for maior do que 5 ele esta aprovado, caso contratio ele esta reprovado
+
+'''
+nota1 = input('digite sua nota: ')
+nota2 = input('digite sua nota: ')
+nome = input('Digite o seu nome: ')
+media = (float(nota1) + float(nota2)) /2
+print ('Sua média é %s' %media)
+if media >= 5 and nome == 'fernando' or nome == 'fernanda' :
+    print ('voce foi aprovado')
+else:
+    print ('voce foi reprovado')
+'''
+
+'''
+perguntar idade, carteirinha, pais
+se a idade for igual ou maior que 18 e estiver com a carteirinha, entra e paga meia
+se a idade for igual a 16 e estiver com os pais ou carteirinha pode entrar
+'''
+
+idade = int(input('Digite sua idade: '))
+cart = input('Tem carteirinha (s/n): ')
+pais = input('Esta com os pais (s/n): ')
+
+if idade>=18 and cart == 's':
+    print('Voce pode entrar!')
+elif idade == 16 and cart == 's' or pais == 's':
+    print ('Pode entrar')
+else:
+    print('Não pode entrar!')
+
