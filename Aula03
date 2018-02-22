@@ -1,0 +1,61 @@
+#!/usr/bin/python3
+
+'''
+
+nome = input('Digite seu nome: ')
+print ('Seja bem vindo %s' %nome)
+
+print ('Seja bem vindo %s este sistema \
+é de uso legal, voce é responsavel por \
+todas as informacoes inseridas' %nome)
+
+print (acesso.append (nome))
+print (acesso)
+
+#Ordena a lista por ordem alfabética
+acesso.sort()
+acesso.sort(reverse=True)
+'''
+
+'''
+#Separador 
+nome = 'fernando'
+sobrenome = 'henrique'
+print (nome, sobrenome, sep='.')
+'''
+
+'''
+#metodos de casas decimais
+nota = 4.450808
+print (round(nota,1))
+print (round(nota,2))
+print (round(nota,3))
+'''
+
+'''
+#manipulacao de arquivos
+with open ('arquivo.txt', 'r+') as f:
+    f.write('testando')
+
+
+with open ('arquivo.txt', 'a') as f:
+    f.write('\ntestando')
+
+with open ('arquivo.txt', 'r') as f:
+    print (f.read())
+
+#acessar uma lista dentro do readlines
+with open ('arquivo.txt', 'r') as f:
+    print (f.readlines()[2])
+
+#
+with open ('arquivo.txt', 'r+') as f:
+    f.seek(2)
+    f.write('2')
+'''
+idade = int(input('Digite sua idade: ')
+
+if idade >= 18:
+    print ('Maior de idade')
+else:
+    print ('Ainda é nene')  
