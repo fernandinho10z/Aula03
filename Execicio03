@@ -1,0 +1,16 @@
+'''
+O usuario deve digitar nome do remetente, destinatario e produto. 
+Isto deve ser gravado em um arquivo txt com o seguinte formato: remetente - destinatario - produto (uma por linha)
+Após gravar algumas entregas, mostre na tela a segunda entrega que foi cadastrada
+'''
+
+reme = input('Digite o remetente: ')
+dest = input('Digite o destinatario: ')
+prod = input('Digite o produto: ')
+with open ('cadastro.txt', 'a') as f:
+  f.write('\n %s %s %s' %(dest, reme, prod))
+   
+    
+
+
+    
